@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Features from './components/Features'
+import Destinations from './components/Destinations'
+import Stories from './components/Stories'
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Navbar/>
       <Home/>
       <Features/>
+      <Destinations />
+      <Stories />
     </>
   )
 }

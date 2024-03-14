@@ -11,4 +11,7 @@
       src: url(/src/assets/RowanBerryDemoRegular.ttf);
     }
   }
+  body::-webkit-scrollbar {
+    display: none;
+  }
   
